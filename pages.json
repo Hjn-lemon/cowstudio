@@ -1,0 +1,87 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "吉牛天下",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/404/404",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "吉牛天下",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cow_deal/cow_deal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "吉牛天下",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/serve_shop/serve_shop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "吉牛天下",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/pro_information/pro_information",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "吉牛天下",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "吉牛天下",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "吉牛天下",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "主页"
+		}, {
+			"pagePath": "pages/cow_deal/cow_deal",
+			"text": "肉牛交易"
+		},{
+			"pagePath": "pages/serve_shop/serve_shop",
+			"text": "服务商店"
+		},{
+			"pagePath": "pages/pro_information/pro_information",
+			"text": "专业信息"
+		},{
+			"pagePath": "pages/home/home",
+			"text": "个人中心"
+		}]
+	},
+	"easycom": {
+		"^u-(.*)":"uview-ui/components/u-$1/u-$1.vue"
+	}
+}
